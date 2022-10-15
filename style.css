@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;900&display=swap');
+:root {
+  --pr-c: #121722;
+  --sc-c: #ffce32;
+  --th-c: #1d63ff;
+  --fr-c: #ffff;
+  --fv-c: #f2c32b;
+  --text: 'Poppins', sans-serif;
+  --font: 'Bebas Neue', cursive;
+}
+/* navbar */
+h1 {
+  font-family: var(--font);
+}
+h2,
+p,
+span {
+  font-weight: 400;
+  font-family: var(--text);
+}
+a .navbar {
+  font-family: var(--font);
+}
+.nav-bg {
+  transition: 500ms ease-in;
+  background: transparent;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.nav-color {
+  transition: 500ms ease-out;
+  background: white;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler-icon {
+  background-image: none;
+}
+a.navbar-brand {
+  color: #030e12;
+}
+a.navbar-brand:hover {
+  color: var(--th-c);
+}
+.nav-link {
+  color: #030e12;
+}
+.nav-link.active {
+  color: #030e12;
+}
+.nav-link:hover {
+  color: var(--th-c);
+}
+/* class jumbotron */
+.jumbotron {
+  /* atas bawah kiri kanan */
+  padding-top: 7em;
+  background-color: var(--sc-c);
+}
+.footer {
+  /* atas bawah kiri kanan */
+  background-color: var(--fv-c);
+}
+#project {
+  background-color: var(--th-c);
+}
+img.project-cover {
+  width: 900px;
+  height: 600px;
+}
+img {
+  width: 200px;
+}
+h5.portopolio {
+  font-size: 23px;
+  font-family: var(--font);
+}
+h5.portopolio:hover {
+  font-size: 23px;
+  color: var(--fv-c);
+}
+p.desc-app {
+  text-align: justify;
+}
+#footer {
+  background-color: var(--fv-c);
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  img.project-cover {
+    width: 370px;
+    height: 370px;
+  }
+  img.logo-portopolio {
+    width: 130px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  img.project-cover {
+    width: 470px;
+    height: 370px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

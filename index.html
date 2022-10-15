@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Portofolio">
+  <meta name="description" content="Deskripsi Diri">
+  <meta name="keywords" content="Keyword Diri">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="author" content="Portofolio">
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favication1.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favication1.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favication2.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favication1.png" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Bootstrap Icons -->
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <!-- Manual css -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Portofolio</title>
+</head>
+
+<body id="Home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top nav-bg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portopolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="bi bi-sliders text-dark"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- ms-auto -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Portopolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center ">
+    <img src="https://ui-avatars.com/api/?name=Portopolio+1" alt="portopolio" width="200px"
+      class="rounded-circle img-thumbnail" data-aos="fade-up" />
+    <h1 class="display-4 mt-2" data-aos="fade-up">Portopolio</h1>
+    <!-- deskripsi perkerjaan dan hobi  -->
+    <div class="container">
+      <p data-aos="fade-up">Pekenalan Diri</p>
+    </div>
+    <div class="">
+      <h3> SOSIAL MEDIA </h3>
+      <div class="row">
+        <h3>
+          <a href=""><span><i class="bi bi-linkedin text-dark"></i></span></a>
+          <a href=""><span><i class="bi bi-github text-dark"></i></span></a>
+          <a href=""><span><i class="bi bi-youtube text-dark"></i></span></a>
+          <a href=""><span><i class="bi bi-whatsapp text-dark"></i></span></a>
+        </h3>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,96L40,106.7C80,117,160,139,240,128C320,117,400,75,480,74.7C560,75,640,117,720,133.3C800,149,880,139,960,138.7C1040,139,1120,149,1200,133.3C1280,117,1360,75,1400,53.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- End Jumbotron -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col mb-5">
+          <h2>MY SKILLS</h2>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-sm-12">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2 mb-3" data-aos="fade-down">
+                <div class="card border-4 shadow">
+                  <div class="card-body"><img src="/img/html.png" class="card-img-top img-fluid w-75 "
+                      alt="HTML" /><br>HTML
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mb-3" data-aos="fade-down">
+                <div class="card border-4 shadow">
+                  <div class="card-body"><img src="/img/CSS.png" class="card-img-top img-fluid w-75 "
+                      alt=" CSS" /><br>CSS
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mb-3" data-aos="fade-down">
+                <div class="card border-4 shadow">
+                  <div class="card-body"><img src="/img/bootstrap.png" class="card-img-top img-fluid w-75"
+                      alt="BOOTSTRAP" /><span><br>BOOTSTRAP</span></div>
+                </div>
+              </div>
+              <div class="col-md-2 mb-3 " data-aos="fade-down">
+                <div class="card border-4 shadow">
+                  <div class="card-body"><img src="/img/php.png" class="card-img-top img-fluid w-75"
+                      alt="PHP" /><span><br>PHP</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mb-3 " data-aos="fade-down">
+                <div class="card border-4 shadow w-100">
+                  <div class="card-body"><img src="/img/laravel.png" class="card-img-top img-fluid w-75"
+                      alt="LARAVEL" /><span><br>LARAVEL</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="waves">
+      <img src="/img/waves/wave3.svg" class="img-fluid w-100" alt="" srcset="">
+    </div>
+  </section>
+
+  <!-- End ABOUT -->
+
+  <!-- Project -->
+  <section id="project">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2 class="text-uppercase text-white">Portopolio</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 mb-3" data-aos="fade-down">
+          <div class="card ">
+            <img src="/project1/1.PNG" class="card-img-top img-fluid" alt="Project 1" />
+            <div class="card-body">
+              <a href="/project1.html" class="text-decoration-none text-dark">
+                <h5 class="card-title text-center portopolio">Project 1</h5>
+              </a>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              <p class="card-text text-start"><span class="badge bg-primary fw-light">Case Study</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mb-3" data-aos="fade-down">
+          <div class="card">
+            <img src="/project2/1.PNG" class="card-img-top img-fluid" alt="Project 2" />
+            <div class="card-body">
+              <a href="/project2.html" class="text-decoration-none text-dark">
+                <h5 class="card-title text-center portopolio">Project 2</h5>
+              </a>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              <p class="card-text text-start"><span class="badge bg-primary fw-light">Case Study</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mb-3" data-aos="fade-down">
+          <div class="card">
+            <img src="/project3/1.PNG" class="card-img-top img-fluid" alt="Project 3" />
+            <div class="card-body">
+              <a href="/project3.html" class="text-decoration-none text-dark">
+                <h5 class="card-title text-center portopolio">Project 3</h5>
+              </a>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              <p class="card-text text-start"><span class="badge bg-primary fw-light">Course</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mb-3" data-aos="fade-down">
+          <div class="card">
+            <img src="/project4/1.PNG" class="card-img-top img-fluid" alt="Project 3" />
+            <div class="card-body">
+              <a href="/project4.html" class="text-decoration-none text-dark">
+                <h5 class="card-title text-center portopolio">Project 4</h5>
+              </a>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              <p class="card-text text-start"><span class="badge bg-primary fw-light">Case Study</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="waves">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,128L17.1,112C34.3,96,69,64,103,64C137.1,64,171,96,206,101.3C240,107,274,85,309,106.7C342.9,128,377,192,411,224C445.7,256,480,256,514,250.7C548.6,245,583,235,617,229.3C651.4,224,686,224,720,234.7C754.3,245,789,267,823,245.3C857.1,224,891,160,926,133.3C960,107,994,117,1029,117.3C1062.9,117,1097,107,1131,117.3C1165.7,128,1200,160,1234,192C1268.6,224,1303,256,1337,261.3C1371.4,267,1406,245,1423,234.7L1440,224L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+  <!-- End Project -->
+
+  <!-- Contantc -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="container">
+          <div class="col">
+            <h4>CONTACT</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
+          <form action="email.php" method="POST">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="nama" name="nama" aria-describedby="nama"
+                placeholder="Masukan Nama Lengkap" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Alamat Email</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="email"
+                placeholder="Masukan Email Lengkap" required />
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Nomer Telephone</label>
+              <input type="string" class="form-control" id="phone" name="phone" aria-describedby="phone"
+                placeholder="Masukan Phone yang bisa dihubungi" required max="13" min="10" />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" name="pesan" rows="5"
+                placeholder="Masukan Pesan yang ingin disampaikan"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Contantc -->
+  <!-- Footer -->
+  <div class="waves">
+    <img src="/img/waves/wave1.svg" class="img-fluid w-100" alt="" srcset="">
+  </div>
+  <section id="footer">
+    <footer class="footer text-center pb-4">
+      <p class="text-white pt-5">Created with <i class="bi bi-heart-fill text-danger"></i> by a <a
+          href="http://instagram.com/fajragstn" class="text-white fw-medium">Fajar Agustian</a></p>
+    </footer>
+  </section>
+
+  <!-- End Footer -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"
+    integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="/app.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 300, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+    });
+  </script>
+</body>
+
+</html>
